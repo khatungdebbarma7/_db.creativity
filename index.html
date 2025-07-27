@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khupui Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+   <div class="logo">db.<span>creative</span></div>
+   <ul>
+    <li><a href="index.html" class="active">Shop</a></li>
+    <li><a href="about.html">About</a></li>
+   </ul>
+    </nav>
+
+    <h1 class="title">Our Products</h1>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="images/juta.jpg" class="main-img" onclick="showGallery('Juta', ['juta.jpg', 'juta.jpg'])">
+            <h3>Juta</h3>
+            <p class="price">$99</p>
+            <p>Adorable and perfect for gifting!</p>
+            <a href="#" onclick="orderNow('Crochet Juta')" class="whatsapp-button">Order Now</a>
+        </div>
+  
+       <div class="product-card">
+            <img src="images/juta.jpg" class="main-img" onclick="showGallery('Juta', ['juta.jpg', 'bag.jpg'])">
+            <h3>Juta</h3>
+            <p class="price">$99</p>
+            <p>Adorable and perfect for gifting!</p>
+            <a href="#" onclick="orderNow('Crochet Juta')" class="whatsapp-button">Order Now</a>
+        </div>
+  
+       <div class="product-card">
+            <img src="images/juta.jpg" class="main-img" onclick="showGallery('Juta', ['juta.jpg', 'juta.jpg'])">
+            <h3>Juta</h3>
+            <p class="price">$99</p>
+            <p>Adorable and perfect for gifting!</p>
+            <a href="#" onclick="orderNow('Crochet Juta')" class="whatsapp-button">Order Now</a>
+        </div>
+    
+       <div class="product-card">
+            <img src="images/bag.jpg" class="main-img" onclick="showGallery('Bag', ['bag.jpg', 'bag.jpg'])">
+            <h3>Juta</h3>
+            <p class="price">$99</p>
+            <p>Adorable and perfect for gifting!</p>
+            <a href="#" onclick="orderNow('Crochet Juta')" class="whatsapp-button">Order Now</a>
+        </div>
+    </div>
+
+    <div id="galleryModal" class="modal">
+        <span class="close" onclick="closeGallery()">&times;</span>
+        <div class="gallery-content" id="galleryImages"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>_db.creativity</h3>
+                <p>Made with love & yarn</p>
+                <p>Contact: <a href="https://wa.me/7005070622" target="_blank">Whatsapp Us</a></p>
+            </div>
+
+            <div class="footer-right">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Email</a>
+            </div>
+        </div>
+        </div>
+        <p class="footer-bottom">&copy; 2023 _db.creativity | All rights reserved.</p>
+    </footer>
+</body>
+</html>
